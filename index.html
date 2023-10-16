@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ion bar</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <fieldset class="capa">
+
+        <h1 class="titulo"> bem vindo ao <span class="h22">ion bar</span></h1>
+
+        <img class="imaa" src="img/chopp.gif" alt="">
+
+        <form class="billForm">
+
+            <label for="choppsAntes">Número de Chopp antes das 19h (cada amigo):</label>
+            <input class="balao" type="number" id="choppsAntes" min="0" value=""><br><br>
+            <label for="choppsDepois">Número de Chopp depois das 19h (cada amigo):</label>
+            <input class="balao" type="number" id="choppsDepois" min="0"><br><br>
+
+            <input class="botao" type="button" value="Calcular Conta" onclick="calcularConta()">
+            <a href="mm.html"> <button class="ip" type="text">reset</button></a>
+        </form>
+
+        <h2 class="relatorio">Relatório da Conta</h2>
+        <div id="relatorio"></div>
+
+    <script src="index.html"></script>
+    </fieldset>
+</body>
+
+</html>
